@@ -25,6 +25,7 @@
 #include <queue>
 #include <deque>
 #include <random>
+#include <stack>
 #include <stdio.h>
 #include <stdint.h>
 #include <assert.h>
