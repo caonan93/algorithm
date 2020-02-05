@@ -1,6 +1,5 @@
-FROM hub.c.163.com/public/ubuntu:14.04
-COPY . /data
-WORKDIR /data
-RUN apt-get -y update && apt-get install -y gcc g++ gtest cmake vim
-RUN mv /usr/sbin/tcpdump /usr/bin/tcpdump
+FROM ubuntu:18.04
+COPY . /algorithm
+WORKDIR /algorithm
+RUN apt-get -y update && apt-get install -y ssh gcc g++ cmake vim git
 ENTRYPOINT /usr/sbin/sshd -D
