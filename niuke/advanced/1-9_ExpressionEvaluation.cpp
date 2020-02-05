@@ -203,8 +203,6 @@ TEST(NiuKeAdvanced, ExpressionComputeMultiplicationDivision)
         }
     }
     expression = expression.substr(0 ,expression.length()-1);
-    TEST_COUT<<"expression "<<expression<<endl;
-    TEST_COUT<<"ret:"<<ex.calculateExpression(expression)<<endl;
     //EXPECT_EQ(static_cast<int>(ret), static_cast<int>(ex.calculateExpression(expression)));
 }
 

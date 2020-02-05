@@ -43,13 +43,13 @@ set(CMAKE_LIBRARY_PATH ${CMAKE_LIBRARY_PATH} ${PROJECT_BINARY_DIR}/lib)
 
 find_library(gtest gtest)
 find_library(gtest_main gtest_main)
-find_library(benchmark benchmark)
-find_library(benchmark_main benchmark_main)
+#find_library(benchmark benchmark)
+#find_library(benchmark_main benchmark_main)
 
 message(STATUS "gtest: ${gtest}")
 message(STATUS "gtest_main: ${gtest_main}")
-message(STATUS "benchmark: ${benchmark}")
-message(STATUS "benchmark_main: ${benchmark_main}")
+#message(STATUS "benchmark: ${benchmark}")
+#message(STATUS "benchmark_main: ${benchmark_main}")
 
 include_directories("${PROJECT_SOURCE_DIR}/util")
 

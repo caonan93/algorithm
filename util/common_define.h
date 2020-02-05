@@ -1,12 +1,3 @@
-/*
- @copyright  2004-2015  Apache License, Version 2.0
- @filename   common_define.h
- @author     root
- @version
- @date       2019/09/29 01:31
- @brief
- @details    2019/09/29 root create
-*/
 /*************************************************************************
     > File Name: common_define.h
     > Author: hulkcao
@@ -79,28 +70,5 @@ void printItemList(T &itemlist)
 }
 
 }
-
-//gtest custom printf
-namespace testing
-{
- namespace internal
- {
-  extern void ColoredPrintf(GTestColor color, const char* fmt, ...);
- }
-}
-
-#define PRINTF(...)  do { testing::internal::ColoredPrintf(testing::internal::COLOR_YELLOW, __VA_ARGS__); } while(0)
-
-// C++ stream interface
-class TestCout : public std::stringstream
-{
-public:
-    ~TestCout()
-    {
-        PRINTF("%s",str().c_str());
-    }
-};
-
-#define TEST_COUT  TestCout()
 
 #endif
