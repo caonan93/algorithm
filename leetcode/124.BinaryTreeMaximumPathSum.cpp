@@ -10,7 +10,7 @@
 /*************************************************************************
     > File Name: 124.BinaryTreeMaximumPathSum.cpp
     > Author: hulkcao
-    > Mail: 546314485@qq.com
+    > Mail: caonann@qq.com
     > Created Time: Sat 15 Jun 2019 05:54:14 AM UTC
  ************************************************************************/
 

@@ -10,7 +10,7 @@
 /*************************************************************************
     > File Name: 110.BalancedBinaryTree.cpp
     > Author: hulkcao
-    > Mail: 546314485@qq.com
+    > Mail: caonann@qq.com
     > Created Time: Sat 15 Jun 2019 04:23:52 AM UTC
  ************************************************************************/
 

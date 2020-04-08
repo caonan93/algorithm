@@ -10,7 +10,7 @@
 /*************************************************************************
     > File Name: VerifySquenceOfBST.cpp
     > Author: hulkcao
-    > Mail: 546314485@qq.com
+    > Mail: caonann@qq.com
     > Created Time: Sat 14 Apr 2018 11:02:39 PM CST
  ************************************************************************/
 

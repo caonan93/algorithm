@@ -10,7 +10,7 @@
 /*************************************************************************
     > File Name: HasSubtree.cpp
     > Author: hulkcao
-    > Mail: 546314485@qq.com
+    > Mail: caonann@qq.com
     > Created Time: Sat 14 Apr 2018 01:03:11 PM CST
  ************************************************************************/
 #include <iostream>

@@ -10,7 +10,7 @@
 /*************************************************************************
     > File Name: longest_search_tree.cpp
     > Author: hulkcao
-    > Mail: 546314485@qq.com
+    > Mail: caonann@qq.com
     > Created Time: Wed 22 Nov 2017 12:15:47 AM CST
  ************************************************************************/
 
