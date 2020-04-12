@@ -13,7 +13,6 @@ using namespace std;
 class Solution {
 public:
     vector<int> processQueries(vector<int>& queries, int m) {
-
 		vector<int> p;
 		for(int i=1;i<=m;i++) p.push_back(i);
 		vector<int> ret;
