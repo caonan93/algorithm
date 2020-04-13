@@ -8,7 +8,6 @@
  @details    2019/10/03 root create
 */
 #include "common/define.h"
-// ¶þ²æÊ÷¾µÏñ
 struct TreeNode
 {
     int val;
