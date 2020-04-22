@@ -77,18 +77,16 @@ TreeNode *createTree(vector<int> &arr)
 
 int RandomUtils::getInt(int start,int end)
 {
-    static std::random_device rd;
-    static std::default_random_engine e(rd());
-    static std::uniform_int_distribution<int> u(start, end);
-
+    std::random_device rd;
+    std::default_random_engine e(rd());
+    std::uniform_int_distribution<int> u(start, end);
     return u(e);
 }
 
 double RandomUtils::getDouble(double start,double end)
 {
-    static std::random_device rd;
-    static std::default_random_engine e(rd());
-    static std::uniform_real_distribution<double> u(start,end);
-
+    std::random_device rd;
+    std::default_random_engine e(rd());
+    std::uniform_real_distribution<double> u(start,end);
     return u(e);
 }

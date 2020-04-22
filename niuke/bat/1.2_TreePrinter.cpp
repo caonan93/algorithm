@@ -20,13 +20,10 @@ public:
     {
         // write code here
         if (!root) return vector<vector<int>> {};
-
         TreeNode *last = root;
-
         TreeNode *nlast = last;
 
         vector<vector<int>> res;
-
         vector<int> line;
 
         queue<TreeNode *> binary_que;
